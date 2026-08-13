@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "packageManager": "npm@10.9.7",
-  "description": "A personal collection of Raycast",
+  "description": "Personal collection of Raycast extensions",
   "author": "Frankie <1426203851@qq.com>",
   "license": "MIT",
   "homepage": "https://www.raycast.com/tofrankie",

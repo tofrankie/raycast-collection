@@ -4,10 +4,20 @@
   "title": "WeChat DevTool",
   "type": "module",
   "version": "1.4.0",
-  "description": "Quickly open WeChat mini program project via official CLI.",
+  "description": "Quickly open WeChat mini program project via official CLI",
   "icon": "icon.png",
   "author": "tofrankie",
   "license": "MIT",
+  "homepage": "https://github.com/tofrankie/raycast-collection/tree/main/extensions/wechat-devtool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tofrankie/raycast-collection.git",
+    "directory": "extensions/wechat-devtool"
+  },
+  "bugs": {
+    "url": "https://github.com/tofrankie/raycast-collection/issues",
+    "email": "1426203851@qq.com"
+  },
   "categories": [
     "Developer Tools"
   ],
