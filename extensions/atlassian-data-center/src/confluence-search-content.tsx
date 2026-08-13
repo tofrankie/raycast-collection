@@ -176,7 +176,10 @@ function ConfluenceSearchContents() {
                         icon={item.isFavourited ? Icon.StarDisabled : Icon.Star}
                         title={item.isFavourited ? "Remove from Favourites" : "Add to Favourites"}
                         onAction={() => handleToggleFavorite(item.id, item.isFavourited)}
-                        shortcut={{ modifiers: ["cmd"], key: "f" }}
+                        shortcut={{
+                          macOS: { modifiers: ["cmd"], key: "f" },
+                          Windows: { modifiers: ["ctrl"], key: "f" },
+                        }}
                       />
                     )}
                     {item.spaceUrl && (

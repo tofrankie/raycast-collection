@@ -90,7 +90,10 @@ function JiraWorklogView() {
                       title="Create Worklog"
                       target={<JiraWorklogForm issueKey={item.issueKey} onUpdate={refetchWithToast} />}
                       icon={Icon.Plus}
-                      shortcut={{ modifiers: ["cmd", "shift"], key: "n" }}
+                      shortcut={{
+                        macOS: { modifiers: ["cmd", "shift"], key: "n" },
+                        Windows: { modifiers: ["ctrl", "shift"], key: "n" },
+                      }}
                     />
                     <Action.Push
                       title="Edit Worklog"
@@ -102,7 +105,10 @@ function JiraWorklogView() {
                         />
                       }
                       icon={Icon.Pencil}
-                      shortcut={{ modifiers: ["cmd", "shift"], key: "e" }}
+                      shortcut={{
+                        macOS: { modifiers: ["cmd", "shift"], key: "e" },
+                        Windows: { modifiers: ["ctrl", "shift"], key: "e" },
+                      }}
                     />
                     <Action
                       title="Copy JQL"

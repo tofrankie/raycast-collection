@@ -236,9 +236,19 @@ function BoardIssueItem({ item, onRefetch }: BoardIssueItemProps) {
             title="Transition Status"
             target={<JiraIssueTransitionForm issueKey={item.key} onUpdate={onRefetch} />}
             icon={Icon.Switch}
-            shortcut={{ modifiers: ["cmd"], key: "t" }}
+            shortcut={{
+              macOS: { modifiers: ["cmd"], key: "t" },
+              Windows: { modifiers: ["ctrl"], key: "t" },
+            }}
           />
-          <Action.CopyToClipboard title="Copy URL" shortcut={{ modifiers: ["cmd"], key: "c" }} content={item.url} />
+          <Action.CopyToClipboard
+            title="Copy URL"
+            shortcut={{
+              macOS: { modifiers: ["cmd"], key: "c" },
+              Windows: { modifiers: ["ctrl"], key: "c" },
+            }}
+            content={item.url}
+          />
           <Action.CopyToClipboard title="Copy Key" shortcut={Keyboard.Shortcut.Common.Copy} content={item.key} />
           <Action
             title="Refresh"

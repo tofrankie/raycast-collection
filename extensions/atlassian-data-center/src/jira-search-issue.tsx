@@ -249,18 +249,27 @@ function JiraSearchIssues() {
                       title="Create Worklog"
                       target={<JiraWorklogForm issueKey={item.key} onUpdate={refetchWithToast} />}
                       icon={Icon.Clock}
-                      shortcut={{ modifiers: ["cmd", "shift"], key: "n" }}
+                      shortcut={{
+                        macOS: { modifiers: ["cmd", "shift"], key: "n" },
+                        Windows: { modifiers: ["ctrl", "shift"], key: "n" },
+                      }}
                     />
                     <Action.Push
                       icon={Icon.Switch}
                       title="Transition Status"
                       target={<JiraIssueTransitionForm issueKey={item.key} onUpdate={refetchWithToast} />}
-                      shortcut={{ modifiers: ["cmd"], key: "t" }}
+                      shortcut={{
+                        macOS: { modifiers: ["cmd"], key: "t" },
+                        Windows: { modifiers: ["ctrl"], key: "t" },
+                      }}
                     />
                     <Action.CopyToClipboard
                       title="Copy URL"
                       content={item.url}
-                      shortcut={{ modifiers: ["cmd"], key: "c" }}
+                      shortcut={{
+                        macOS: { modifiers: ["cmd"], key: "c" },
+                        Windows: { modifiers: ["ctrl"], key: "c" },
+                      }}
                     />
                     <Action.CopyToClipboard
                       title="Copy Key"
@@ -272,7 +281,10 @@ function JiraSearchIssues() {
                         title="Copy JQL"
                         icon={Icon.CopyClipboard}
                         onAction={() => copyJQL()}
-                        shortcut={{ modifiers: ["cmd", "shift"], key: "," }}
+                        shortcut={{
+                          macOS: { modifiers: ["cmd", "shift"], key: "," },
+                          Windows: { modifiers: ["ctrl", "shift"], key: "," },
+                        }}
                       />
                     )}
                     <Action
