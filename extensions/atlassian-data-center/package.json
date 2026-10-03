@@ -1,9 +1,9 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "atlassian-data-center",
-  "title": "Atlassian Data Center (Self-Hosted)",
+  "title": "Atlassian (Self-Hosted)",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search and manage Confluence contents and Jira issues",
   "icon": "logo-atlassian.png",
   "author": "tofrankie",
@@ -27,7 +27,8 @@
     "confluence",
     "confluence data center",
     "jira",
-    "jira data center"
+    "jira data center",
+    "self-hosted"
   ],
   "platforms": [
     "macOS",
@@ -43,21 +44,21 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@raycast/api": "^1.104.23",
-    "@raycast/utils": "^2.2.7",
-    "@tanstack/react-query": "~5.90.12",
-    "dayjs": "^1.11.19",
-    "ky": "^1.14.2"
+    "@raycast/api": "^2.6.2",
+    "@raycast/utils": "^2.3.2",
+    "@tanstack/react-query": "^5.104.1",
+    "dayjs": "^1.11.23",
+    "ky": "^2.1.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^2.2.0",
-    "@types/node": "22.13.10",
-    "@types/react": "19.0.10",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
     "eslint": "^10.8.0",
     "prettier": "^3.9.6",
-    "type-fest": "^5.2.0",
+    "type-fest": "^5.10.0",
     "typescript": "^5.9.3",
-    "vitest": "^3.2.4"
+    "vitest": "^5.0.3"
   },
   "preferences": [
     {

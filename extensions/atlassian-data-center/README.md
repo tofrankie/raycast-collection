@@ -1,4 +1,4 @@
-# Atlassian Data Center (Self-Hosted)
+# Atlassian (Self-Hosted)
 
 A Raycast extension for self-hosted Atlassian products to search and manage Confluence contents and Jira issues, with CQL/JQL syntax support.
 
