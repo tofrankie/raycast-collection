@@ -4,18 +4,18 @@ Personal collection of [Raycast](https://www.raycast.com/?via=73820f) extensions
 
 ## Published Extensions
 
-| Extension             | Description                                                                           | Install                                                                                          |
-| :-------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------- |
-| WeChat DevTool        | Quickly open WeChat mini program project via official CLI                             | [Install from Raycast Store](https://www.raycast.com/tofrankie/wechat-devtool?via=73820f)        |
-| Atlassian Data Center | Search and manage Confluence contents and Jira issues                                 | [Install from Raycast Store](https://www.raycast.com/tofrankie/atlassian-data-center?via=73820f) |
-| Chinese Converter     | Convert number input into Chinese formatted text, including uppercase RMB amount text | [Install from Raycast Store](https://www.raycast.com/tofrankie/chinese-converter?via=73820f)     |
+| Extension | Description | Install |
+| :-- | :-- | :-- |
+| WeChat DevTool | Quickly open WeChat mini program project via official CLI | [Install from Raycast Store](https://www.raycast.com/tofrankie/wechat-devtool?via=73820f) |
+| Atlassian | Search and manage Confluence contents and Jira issues | [Install from Raycast Store](https://www.raycast.com/tofrankie/atlassian-data-center?via=73820f) |
+| Chinese Converter | Convert number input into Chinese formatted text, including uppercase RMB amount text | [Install from Raycast Store](https://www.raycast.com/tofrankie/chinese-converter?via=73820f) |
 
 Find more published extensions on the [Raycast Profile](https://www.raycast.com/tofrankie?via=73820f).
 
 ## Unpublished Extensions
 
-| Extension                                       | Description                     |
-| :---------------------------------------------- | :------------------------------ |
+| Extension | Description |
+| :-- | :-- |
 | [GitHub Navigator](extensions/github-navigator) | Browse your GitHub repositories |
 
 To install an unpublished extension locally, clone this repository and run the following commands:

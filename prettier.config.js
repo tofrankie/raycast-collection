@@ -1,4 +1,7 @@
+import { base } from "@tofrankie/prettier";
+
 export default {
+  ...base,
   printWidth: 120,
   singleQuote: false,
   semi: true,
