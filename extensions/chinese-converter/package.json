@@ -3,7 +3,7 @@
   "name": "chinese-converter",
   "title": "Chinese Converter",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert number input into Chinese formatted text, including uppercase RMB amount text",
   "icon": "icon.png",
   "author": "tofrankie",
