@@ -3,7 +3,7 @@
   "name": "wechat-devtool",
   "title": "WeChat DevTool",
   "type": "module",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Quickly open WeChat mini program project via official CLI",
   "icon": "icon.png",
   "author": "tofrankie",

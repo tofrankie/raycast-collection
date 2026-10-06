@@ -207,7 +207,7 @@ export default function ProjectList({
                 <Action.CopyToClipboard
                   title="Copy Project Path"
                   content={project.path}
-                  shortcut={{ modifiers: ["cmd", "shift"], key: "," }}
+                  shortcut={Keyboard.Shortcut.Common.CopyPath}
                 />
                 <Action
                   title="Refresh Project List"
